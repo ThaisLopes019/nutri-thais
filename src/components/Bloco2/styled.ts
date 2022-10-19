@@ -46,19 +46,19 @@ export const Container = styled.div`
   @media (max-width: 900px) {
     padding: 4rem;
 
-    >h2{
+    > h2 {
       font-size: 24px;
     }
-    span{
+    span {
       font-size: 18px;
-      text-align:center;
+      text-align: center;
     }
-    .content{
-      flex-direction:column-reverse;
+    .content {
+      flex-direction: column-reverse;
       margin-top: 3.5rem;
 
-      .txt{
-        >p{
+      .txt {
+        > p {
           margin-top: 3.5rem;
           font-size: 18px;
         }
