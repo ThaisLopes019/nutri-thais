@@ -1,7 +1,9 @@
+import { Bloco1 } from '../../components/Bloco1'
+
 export function Home() {
   return (
     <>
-      <h1>hello</h1>
+      <Bloco1 />
     </>
   )
 }
