@@ -1,9 +1,9 @@
-import { Bloco1 } from '../../components/Bloco1'
+import { Bloco4 } from '../../components/Bloco4'
 
 export function Home() {
   return (
     <>
-      <Bloco1 />
+      <Bloco4 />
     </>
   )
 }
