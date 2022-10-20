@@ -7,7 +7,6 @@ export default createGlobalStyle`
   padding: 0;
   border: none;
   box-sizing: border-box;
-  list-style: none;
   text-decoration: none;
   font-size: 1.6rem;
   font-family: 'Poppins', sans-serif;

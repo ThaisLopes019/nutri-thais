@@ -1,5 +1,6 @@
 import { Bloco1 } from '../../components/Bloco1'
 import { Bloco2 } from '../../components/Bloco2'
+import { Bloco3 } from '../../components/Bloco3'
 import { Bloco4 } from '../../components/Bloco4'
 
 export function Home() {
@@ -7,6 +8,7 @@ export function Home() {
     <>
       <Bloco1 />
       <Bloco2 />
+      <Bloco3 />
       <Bloco4
         linkWpp={'https://api.whatsapp.com/send?phone=5581991131391'}
         linkInsta={'https://www.instagram.com/nutri.thaislopes/'}
