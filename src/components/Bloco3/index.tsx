@@ -12,7 +12,7 @@ export function Bloco3() {
         <div className="txt">
           <ul>
             <li>
-              <a href="">nutrição esportiva</a>
+              <a href="">hipertrofia</a>
             </li>
             <li>
               <a href="">reeducação alimentar</a>
