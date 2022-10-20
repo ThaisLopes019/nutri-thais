@@ -45,6 +45,7 @@ export const Container = styled.div`
       > span {
         font-size: 1.8rem;
         line-height: 140%;
+        max-width: 400px;
       }
     }
     .div-icon {
@@ -66,7 +67,6 @@ export const Footer = styled.footer`
   justify-content: center;
   align-items: center;
   span {
-    max-width: 400px;
     font-size: 1.68rem;
     line-height: 110%;
     color: ${({ theme }) => theme.LIGHT};
