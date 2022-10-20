@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
   display: flex;
   justify-content: end;
-  nav {
+  > nav {
     display: flex;
     gap: 4rem;
     margin: 40px 40px 0 0;
@@ -42,6 +42,7 @@ export const Wrapper = styled.div`
     justify-content: center;
     margin-right: 20px;
     gap: 4rem;
+    padding-bottom: 165px;
     a {
       font-weight: 700;
       font-size: 1.9rem;
