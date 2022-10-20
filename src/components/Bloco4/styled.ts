@@ -38,6 +38,7 @@ export const Container = styled.div`
   @media (max-width: 900px) {
     height: 56vh;
     .div-text {
+      max-width: 350px;
       > p {
         font-size: 2.4rem;
         line-height: 130%;
@@ -45,7 +46,6 @@ export const Container = styled.div`
       > span {
         font-size: 1.8rem;
         line-height: 140%;
-        max-width: 400px;
       }
     }
     .div-icon {
