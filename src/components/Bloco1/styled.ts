@@ -2,57 +2,79 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   display: flex;
-  justify-content: space-between;
-  .logoThaisDesk {
-    max-width: 59rem;
+  justify-content: end;
+  > nav {
+    display: flex;
+    gap: 4rem;
+    margin: 40px 40px 0 0;
+    a {
+      font-weight: 700;
+      font-size: 1.9rem;
+      line-height: 120%;
+      color: ${({ theme }) => theme.SECONDARY_200};
+      :hover {
+        color: ${({ theme }) => theme.PRIMERY_200};
+      }
+    }
   }
-
-  @media (max-width: 900px) {
-    .logoThaisDesk {
+  @media (min-width: 900px) {
+    .logoMobile {
       display: none;
     }
-    .div-desk {
-      nav {
-        flex-direction: column;
-        margin: 0 auto;
+  }
+  @media (max-width: 900px) {
+    justify-content: center;
+    .navDesk {
+      display: none;
+    }
+  }
+  .logoMobile {
+    width: 270px;
+  }
+`
+
+export const Wrapper = styled.div`
+  display: flex;
+  justify-content: space-between;
+  > nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 20px;
+    gap: 4rem;
+    padding-bottom: 165px;
+    a {
+      font-weight: 700;
+      font-size: 1.9rem;
+      line-height: 120%;
+      color: ${({ theme }) => theme.SECONDARY_200};
+      :hover {
+        color: ${({ theme }) => theme.PRIMERY_200};
       }
     }
   }
 
   @media (min-width: 900px) {
-    .thaismobile {
+    align-items: center;
+    .thaisMobile {
       display: none;
     }
-    .logoThaisMobile {
+    .logoMobile {
       display: none;
     }
-  }
-
-  > section {
-    display: block;
-    margin: 0 auto;
-  }
-
-  > div {
-    display: flex;
-    flex-direction: column;
-    gap: 8.5rem;
-    margin: 10rem 3rem 0 0;
-    nav {
-      display: flex;
-      gap: 4rem;
-      a {
-        font-weight: 700;
-        font-size: 1.9rem;
-        line-height: 120%;
-        color: ${({ theme }) => theme.SECONDARY_200};
-        :hover {
-          color: ${({ theme }) => theme.PRIMERY_200};
-        }
-      }
+    .navMobile {
+      display: none;
     }
-    img {
-      max-width: 51.6rem;
+    .deskAside {
+      margin-right: 30px;
+    }
+  }
+  @media (max-width: 900px) {
+    .thaisDesk {
+      display: none;
+    }
+    .logoDesk {
+      display: none;
     }
   }
 `

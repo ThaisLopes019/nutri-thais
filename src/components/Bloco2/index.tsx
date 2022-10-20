@@ -3,7 +3,7 @@ import imagem1 from '../../assets/image1.png'
 
 export function Bloco2() {
   return (
-    <Container>
+    <Container id="sobre">
       <h2>Sobre a nutrição</h2>
       <span>A nutrição é a arte de alimentar vidas.</span>
 
