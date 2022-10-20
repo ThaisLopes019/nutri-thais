@@ -12,7 +12,7 @@ interface IBloco4 {
 export function Bloco4({ linkEmail, linkInsta, linkWpp }: IBloco4) {
   return (
     <>
-      <Container>
+      <Container id="contato">
         <div className="div-text">
           <p>Curtiu? Entre em contato para agendar uma consulta</p>
           <span>

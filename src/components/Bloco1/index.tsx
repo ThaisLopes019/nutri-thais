@@ -1,4 +1,4 @@
-import { Container } from './styled'
+import { Container, Wrapper } from './styled'
 import logoThaisDesk from '../../assets/logothais.png'
 import logoThaisMobile from '../../assets/logomobile.png'
 import thaisDesk from '../../assets/thaisdesk.png'
@@ -6,25 +6,32 @@ import thaisMobile from '../../assets/thaismobile.png'
 
 export function Bloco1() {
   return (
-    <Container>
-      <img className="logoThaisDesk" src={thaisDesk} alt="Thais Lopes" />
-      <img className="thaismobile" src={thaisMobile} alt="Thais Lopes" />
-      <section>
-        <img className="logoThaisMobile" src={logoThaisMobile} alt="" />
-      </section>
-      <div className="div-desk">
-        <nav>
+    <>
+      <Container>
+        <img className="logoMobile" src={logoThaisMobile} alt="" />
+        <nav className="navDesk">
           <a href="">inicio</a>
-          <a href="">sobre</a>
+          <a href="#sobre">sobre</a>
           <a href="">especialidades</a>
-          <a href="">contato</a>
+          <a href="#contato">contato</a>
         </nav>
-        <img
-          className="logoThaisDesk"
-          src={logoThaisDesk}
-          alt="logo Thaís Lopes"
-        />
-      </div>
-    </Container>
+      </Container>
+
+      <Wrapper>
+        <div>
+          <img className="thaisMobile" src={thaisMobile} alt="" />
+          <img className="thaisDesk" src={thaisDesk} alt="" />
+        </div>
+        <aside className="deskAside">
+          <img className="logoDesk" src={logoThaisDesk} alt="" />
+        </aside>
+        <nav className="navMobile">
+          <a href="">inicio</a>
+          <a href="#sobre">sobre</a>
+          <a href="">especialidades</a>
+          <a href="#contato">contato</a>
+        </nav>
+      </Wrapper>
+    </>
   )
 }

@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 88vh;
   background-color: ${({ theme }) => theme.SECONDARY_100};
 
   display: flex;
@@ -36,6 +36,7 @@ export const Container = styled.div`
   }
 
   @media (max-width: 900px) {
+    height: 56vh;
     .div-text {
       > p {
         font-size: 2.4rem;
