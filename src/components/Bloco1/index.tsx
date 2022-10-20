@@ -11,7 +11,7 @@ export function Bloco1() {
         <nav className="navDesk">
           <a href="">inicio</a>
           <a href="#sobre">sobre</a>
-          <a href="">especialidades</a>
+          <a href="#especialidade">especialidades</a>
           <a href="#contato">contato</a>
         </nav>
       </Container>
@@ -27,7 +27,7 @@ export function Bloco1() {
         <nav className="navMobile">
           <a href="">inicio</a>
           <a href="#sobre">sobre</a>
-          <a href="">especialidades</a>
+          <a href="#especialidade">especialidades</a>
           <a href="#contato">contato</a>
         </nav>
       </Wrapper>
