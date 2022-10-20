@@ -1,6 +1,5 @@
 import { Container, Wrapper } from './styled'
 import logoThaisDesk from '../../assets/logothais.png'
-import logoThaisMobile from '../../assets/logomobile.png'
 import thaisDesk from '../../assets/thaisdesk.png'
 import thaisMobile from '../../assets/thaismobile.png'
 
@@ -8,7 +7,7 @@ export function Bloco1() {
   return (
     <>
       <Container>
-        <img className="logoMobile" src={logoThaisMobile} alt="" />
+        <img className="logoMobile" src={logoThaisDesk} alt="" />
         <nav className="navDesk">
           <a href="">inicio</a>
           <a href="#sobre">sobre</a>

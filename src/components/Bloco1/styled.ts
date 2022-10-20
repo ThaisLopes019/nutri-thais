@@ -28,6 +28,9 @@ export const Container = styled.div`
       display: none;
     }
   }
+  .logoMobile {
+    width: 270px;
+  }
 `
 
 export const Wrapper = styled.div`
@@ -49,6 +52,7 @@ export const Wrapper = styled.div`
       }
     }
   }
+
   @media (min-width: 900px) {
     align-items: center;
     .thaisMobile {
