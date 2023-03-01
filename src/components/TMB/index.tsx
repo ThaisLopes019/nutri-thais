@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
+import { KM } from '../km'
 import {
   Button,
   Container,
@@ -10,6 +12,11 @@ import {
 } from './styled'
 
 export function TMB() {
+  const navigate = useNavigate()
+
+  function hanbleHome() {
+    navigate('/')
+  }
   const [genero, setGenero] = useState('')
   const [idade, setIdade] = useState('')
   const [altura, setAltura] = useState('')
@@ -21,10 +28,10 @@ export function TMB() {
 
     if (genero === 'masculino') {
       metabolismo =
-        88.36 + 13.4 * Number(peso) + 4.8 * Number(altura) - 5.7 * Number(idade)
+        66 + 13.7 * Number(peso) + 5 * Number(altura) - 6.8 * Number(idade)
     } else if (genero === 'feminino') {
       metabolismo =
-        447.6 + 9.2 * Number(peso) + 3.1 * Number(altura) - 4.3 * Number(idade)
+        655 + 9.6 * Number(peso) + 1.8 * Number(altura) - 4.7 * Number(idade)
     }
 
     setResultado(metabolismo)
@@ -74,6 +81,10 @@ export function TMB() {
           Seu metabolismo basal é de {resultado.toFixed(2)} calorias.
         </Resultado>
       )}
+      <KM />
+      <button className="back" onClick={hanbleHome}>
+        VOLTAR
+      </button>
     </Container>
   )
 }

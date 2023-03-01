@@ -1,3 +1,4 @@
+import { Button } from './../Bloco5/styled'
 import styled from 'styled-components'
 
 export const Container = styled.div`
@@ -6,7 +7,7 @@ export const Container = styled.div`
 
   > nav {
     display: flex;
-    gap: 4rem;
+    gap: 3.5rem;
     margin: 40px 40px 0 0;
     > button {
       background-color: transparent;
@@ -47,6 +48,10 @@ export const Wrapper = styled.div`
     margin-right: 20px;
     gap: 4rem;
     padding-bottom: 165px;
+    > button {
+      background-color: transparent;
+      text-align: left;
+    }
     a {
       > button {
         background-color: transparent;

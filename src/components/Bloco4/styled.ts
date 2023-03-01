@@ -33,10 +33,20 @@ export const Container = styled.div`
   .div-icon {
     display: flex;
     gap: 11.7rem;
+
+    img {
+      transition: all 0.3s;
+
+      &:hover {
+        transform: translateY(-15px);
+      }
+    }
   }
 
   @media (max-width: 900px) {
+    padding: 0 4rem;
     height: 56vh;
+
     .div-text {
       max-width: 350px;
       > p {
@@ -59,6 +69,7 @@ export const Container = styled.div`
     }
   }
 `
+
 export const Footer = styled.footer`
   width: 100%;
   height: 60px;
@@ -66,6 +77,7 @@ export const Footer = styled.footer`
   display: flex;
   justify-content: center;
   align-items: center;
+
   span {
     font-size: 1.68rem;
     line-height: 110%;
