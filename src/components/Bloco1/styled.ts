@@ -1,4 +1,3 @@
-import { Button } from './../Bloco5/styled'
 import styled from 'styled-components'
 
 export const Container = styled.div`
