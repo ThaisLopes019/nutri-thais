@@ -31,7 +31,7 @@ export function Bloco1() {
         />
 
         <nav className="navDesk" data-aos="fade-down">
-          <a href="">Inicio</a>
+          <a href="">Início</a>
           <a href="#sobre">Sobre</a>
           <a href="#especialidade">Especialidades</a>
           <a href="#contato">Contato</a>
@@ -77,7 +77,7 @@ export function Bloco1() {
             data-aos-delay="0"
             data-aos-offset="0"
           >
-            Inicio
+            Início
           </a>
 
           <a
