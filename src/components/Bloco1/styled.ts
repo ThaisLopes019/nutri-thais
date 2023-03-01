@@ -48,6 +48,16 @@ export const Wrapper = styled.div`
     gap: 4rem;
     padding-bottom: 165px;
     a {
+      > button {
+        background-color: transparent;
+        font-weight: 700;
+        font-size: 1.9rem;
+        line-height: 120%;
+        color: ${({ theme }) => theme.SECONDARY_200};
+        :hover {
+          color: ${({ theme }) => theme.PRIMERY_200};
+        }
+      }
       font-weight: 700;
       font-size: 1.9rem;
       line-height: 120%;

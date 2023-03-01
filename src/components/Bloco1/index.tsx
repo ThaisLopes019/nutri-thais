@@ -39,6 +39,9 @@ export function Bloco1() {
           <a href="#sobre">sobre</a>
           <a href="#especialidade">especialidades</a>
           <a href="#contato">contato</a>
+          <a>
+            <button onClick={hanbleTMB}>TMB</button>
+          </a>
         </nav>
       </Wrapper>
     </>
