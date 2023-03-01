@@ -3,10 +3,14 @@ import styled from 'styled-components'
 export const Container = styled.div`
   display: flex;
   justify-content: end;
+
   > nav {
     display: flex;
     gap: 4rem;
     margin: 40px 40px 0 0;
+    > button {
+      background-color: transparent;
+    }
     a {
       font-weight: 700;
       font-size: 1.9rem;

@@ -3,7 +3,7 @@ import imagem2 from '../../assets/image2.png'
 
 export function Bloco3() {
   return (
-    <Container id='especialidade'>
+    <Container id="especialidade">
       <h2>Especialidades</h2>
       <span>Fique em forma com uma alimentação saudável e balanceada.</span>
 
